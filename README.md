@@ -27,7 +27,8 @@ Führe das Skript einfach in einem Verzeichnis aus, in dem du Thumbnails für MP
 
 ## Hinweis:
 
-Das Skript verwendet Docker, um FFmpeg zu betreiben. Dies stellt sicher, dass die notwendigen Abhängigkeiten nicht lokal installiert sein müssen, erfordert aber, dass Docker auf deinem System installiert und betriebsbereit ist. Das Skript erfordert außerdem geeignete Berechtigungen, um Docker-Container auszuführen.
+- Das Skript verwendet Docker, um FFmpeg zu betreiben. Dies stellt sicher, dass die notwendigen Abhängigkeiten nicht lokal installiert sein müssen, erfordert aber, dass Docker auf deinem System installiert und betriebsbereit ist. Das Skript erfordert außerdem geeignete Berechtigungen, um Docker-Container auszuführen.
+- Andere Videoformate können ebenfalls funktionieren, wenn man die Dateiendung im Skript entsprechend anpasst oder erweitert.
 
 ---
 
@@ -62,4 +63,5 @@ Simply execute the script in a directory where you wish to generate thumbnails f
 
 ## Note:
 
-The script uses Docker to operate FFmpeg. This ensures that the necessary dependencies don't have to be installed locally but requires that Docker is installed and operational on your system. The script also requires appropriate permissions to run Docker containers.
+- The script uses Docker to operate FFmpeg. This ensures that the necessary dependencies don't have to be installed locally but requires that Docker is installed and operational on your system. The script also requires appropriate permissions to run Docker containers.
+- Other video formats might also work if you adjust or expand the file extension in the script accordingly.
